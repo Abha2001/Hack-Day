@@ -81,7 +81,7 @@ let getPRData = async (PRValues) => {
   }
 };
 
-var getIssuesData = async (data) => {
+let getIssuesData = async (data) => {
   let i = 0;
   for (let flag = 0; flag === 0;) {
     i += 1;

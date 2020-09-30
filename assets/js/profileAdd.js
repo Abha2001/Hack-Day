@@ -1,4 +1,4 @@
-$.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/data.json', (data) => {
+$.getJSON('https://raw.githubusercontent.com/Abha2001/Hack-Day/test2020/data.json', (data) => {
   // console.log(data); // this will show the info it in firebug console
   let profileKeys = ['handle', 'image_link', 'message'];
   /**

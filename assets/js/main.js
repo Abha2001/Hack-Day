@@ -1,8 +1,7 @@
 // Countdown-->
 
 // Set the date we're counting down to
-let countDownDate = new Date('Oct 1, 2020 00:00:00').getTime();
-
+let countDownDate = new Date('Oct 17, 2019 17:30:00').getTime();
 // Update the count down every 1 second
 let x = setInterval(() => {
 // Get today's date and time

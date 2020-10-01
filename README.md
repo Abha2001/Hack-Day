@@ -1,7 +1,8 @@
 # Hack-Day-2020
 [![CodeFactor](https://www.codefactor.io/repository/github/lugnitdgp/hack-day/badge)](https://www.codefactor.io/repository/github/lugnitdgp/hack-day)
 
-An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of Hacktoberfest 2020 🎃
+An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of Hacktoberfest 2019 🎃.
+Visit [https://hack-day-2019.netlify.app/](https://hack-day-2019.netlify.app) to checkout hacking ninjas from 2019 edition of hack day.
 
 ![](https://media0.giphy.com/media/TOWeGr70V2R1K/giphy.gif)
 ##### Webinar date: Friday 2nd October, 2020 (tentative)

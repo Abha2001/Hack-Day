@@ -1,8 +1,8 @@
 jQuery.ajaxSetup({ async: false });
-$.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/2019/repos.json', (data) => {
+$.getJSON('https://raw.githubusercontent.com/Abha2001/Hack-Day/test2020/repos.json', (data) => {
   // console.log(data); // this will show the info it in firebug console
   let { repos } = data;
-  // console.log(repos)
+
   let cardParent = document.getElementById('repo-cards');
   for (let index = 0; index < repos.length; index += 1) {
     let card = document.createElement('div');

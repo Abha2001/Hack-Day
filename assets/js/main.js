@@ -2,10 +2,9 @@
 
 // Set the date we're counting down to
 let countDownDate = new Date('Oct 17, 2019 17:30:00').getTime();
-
 // Update the count down every 1 second
 let x = setInterval(() => {
-  // Get today's date and time
+// Get today's date and time
   let now = new Date().getTime();
 
   // Find the distance between now and the count down date
@@ -17,8 +16,11 @@ let x = setInterval(() => {
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
-  document.getElementById('demo').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  // Display the result in the element with id='demo'
+  document.getElementById('days').innerHTML = `${days}d`;
+  document.getElementById('hours').innerHTML = `${hours}h`;
+  document.getElementById('minutes').innerHTML = `${minutes}m`;
+  document.getElementById('seconds').innerHTML = `${seconds}s`;
 
   // If the count down is finished, write some text
   if (distance < 0) {
